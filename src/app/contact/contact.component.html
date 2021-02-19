@@ -1,0 +1,90 @@
+<p class="margin1"></p>
+<div class="container text-center">
+    <h1>CONTACT</h1>
+</div>
+
+<!--
+<div class="container text-center">
+    <p class="text-center">LET'S COLLABORATE</p>
+    <button type="button" class="btn btn-outline-light" routerLink="/letswork" style="font-family: luam;">START A PROJECT</button>
+</div>-->
+
+<div class="container d-flex justify-content-center">
+  <a class="btn btn-outline-light" (click)="this.showEmp = false" *ngIf="this.showEmp; else closebtn" style="font-family: luam;">START A PROJECT</a>
+</div>
+
+<ng-template #closebtn >
+<div class="container ">
+  <div class="container d-flex justify-content-center">
+    <a class="btn btn-outline-light" (click)="this.showEmp = true" style="font-family: luam;">CLOSE</a>
+    </div>
+    <p class="margin3"></p>
+
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+              <form class="form-horizontal" action="" method="post">
+              <fieldset>
+                <legend class="text-center">LET'S COLLABORATE</legend>
+        
+                <!-- Name input-->
+                <div class="form-group d-flex align-items-center">
+                  <label class="col-md-3 control-label" for="name">Name</label>
+                  <div class="col-md-9">
+                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                  </div>
+                </div>
+        
+                <!-- Email input-->
+                <div class="form-group d-flex align-items-center">
+                  <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                  <div class="col-md-9">
+                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                  </div>
+                </div>
+        
+                <!-- Message body -->
+                <div class="form-group d-flex align-items-center">
+                  <label class="col-md-3 control-label" for="message">Your message</label>
+                  <div class="col-md-9">
+                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                  </div>
+                </div>
+        
+                <!-- Form actions -->
+                <div class="form-group d-flex align-items-center">
+                  <div class="col-md-12 text-center ">
+                    <button type="submit" class="btn btn-outline-light" style="font-family: luam;">SUBMIT</button>
+                  </div>
+                </div>
+              </fieldset>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<p class="margin2"></p>
+
+<div class="container text-center">
+    <div class="row text-light">
+      <div class="col-sm">
+        <a class="text-light" href="https://www.facebook.com/melvin.food/">FACEBOOK</a>
+      </div>
+      <div class="col-sm">
+        <a class="text-light" href="https://twitter.com/melvsssvlem">TWIITER</a>
+      </div>
+      <div class="col-sm">
+        <a class="text-light" href="https://www.instagram.com/melvincnlas/">INSTAGRAM</a>
+      </div>
+      <div class="col-sm">
+        <a class="text-light" href="https://soundcloud.com/suntransit">SOUNDCLOUD</a>
+      </div>
+      <div class="col-sm">
+        <a class="text-light" href="https://www.behance.net/melvincanlas">BEHANCE</a>
+      </div>
+    </div>
+  </div>

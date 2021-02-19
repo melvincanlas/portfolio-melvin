@@ -1,0 +1,40 @@
+p{
+    font-family: luam;
+    font-size: 24px;
+    text-align: justify;
+    color: beige;
+}
+
+h1{
+    margin-top: 50px;
+    font-family: mon;
+    color: beige;
+}
+
+.margin1{
+    margin-top: 200px;
+}
+
+.margin2{
+    margin-top: 30px;
+}
+
+.margin3{
+    margin-top: 10px;
+}
+
+a{
+    font-family: luam;
+    font-size: 12px;
+    color:beige;
+}
+
+label{
+    font-family: luam;
+    color:beige;
+}
+
+legend{
+    font-family: luam;
+    color:beige;
+}
